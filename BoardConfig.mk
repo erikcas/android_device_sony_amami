@@ -14,6 +14,8 @@
 
 include device/sony/rhine-common/PlatformConfigOmni.mk
 
+TARGET_SPECIFIC_HEADER_PATH += device/sony/amami/include
+
 TARGET_BOOTLOADER_BOARD_NAME := D5503
 
 BOARD_KERNEL_CMDLINE += androidboot.hardware=amami
